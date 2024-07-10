@@ -235,7 +235,7 @@ Rails.application.routes.draw do
         end
 
         namespace :state_file, path: "state-file" do
-          resources :efile_submissions, only: [:index, :show]  do
+          resources :efile_submissions, only: [:index, :show] do
             get "show_xml", to: "efile_submissions#show_xml"
             get "show_df_xml", to: "efile_submissions#show_df_xml"
             get "show_pdf", to: "efile_submissions#show_pdf"

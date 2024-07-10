@@ -51,4 +51,11 @@
 #  visitor_id                        :string
 #
 class StateFileNjIntake < StateFileBaseIntake
+  def tax_calculator(include_source: false)
+      Efile::Wa::Wa1000.new(
+        year: MultiTenantService.statefile.current_tax_year,
+        intake: self,
+        include_source: include_source
+      )
+    end
 end
