@@ -291,6 +291,7 @@ class StateFileBaseIntake < ApplicationRecord
   end
 
   def sanitize_bank_details
+    return if payment_or_deposit_type_unfilled?
     if (payment_or_deposit_type || "").to_sym != :direct_deposit
       self.account_type = "unfilled"
       self.bank_name = nil
