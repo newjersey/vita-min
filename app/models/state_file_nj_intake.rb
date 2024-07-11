@@ -52,6 +52,9 @@
 #
 class StateFileNjIntake < StateFileBaseIntake
 
+  encrypts :account_number, :routing_number, :raw_direct_file_data
+
+
   def disqualifying_eligibility_rules
     {
       eligibility_lived_in_state: "no",

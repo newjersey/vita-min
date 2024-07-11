@@ -91,12 +91,12 @@ module StateFile
         calculator_class: Efile::Nj::Nj1040,
         navigation_class: Navigation::StateFileNjQuestionNavigation,
         submission_builder_class: SubmissionBuilder::Ty2022::States::Nj::IndividualReturn,
+        state_name: "New Jersey",
         # mail_voucher_address: "New Jersey Personal Income Tax<br/>" \
         #                       "Processing Center<br/>" \
         #                       "Trenton, NJ".html_safe,
         # pay_taxes_link: "https://www.nj.gov/treasury/taxation/payments-notices.shtml",
         # return_type: "NJ1040",
-        # state_name: "New Jersey",
         # survey_link: "https://codeforamerica.co1.qualtrics.com/jfe/form/SV_3pXUfy2c3SScmgu",
         # tax_payment_info_url: "https://www.nj.gov/treasury/taxation/payments-notices.shtml",
         # tax_payment_url: "https://www.nj.gov/treasury/taxation/payments-notices.shtml",

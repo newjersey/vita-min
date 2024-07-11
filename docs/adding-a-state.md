@@ -27,6 +27,14 @@
 ## Add a new navigation class
 - In the navigation class you added in `app/lib/navigation`
 
+### Add a question
+- Make sure the value is included in the database and the model
+- Create a controller for the question under `app/controllers/state_file/questions` (the controller name will determine the name of the route)
+- Add that controller to a section (or create a section) in the navigation class you created
+- Create a form for the question under `app/forms/state_file`
+- Create a view for the question under `app/views/state_file/questions`
+- Add text for the question under config/locales
+
 ## Build XML submission builder class and any document builders
 
 ## Add PDF builder for above doc types and corresponding fillable PDFs

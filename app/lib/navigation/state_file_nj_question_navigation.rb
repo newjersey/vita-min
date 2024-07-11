@@ -7,6 +7,7 @@ module Navigation
           Navigation::NavigationStep.new(StateFile::Questions::LandingPageController, false)
         ], false),
         Navigation::NavigationSection.new("state_file.navigation.section_1", [
+          Navigation::NavigationStep.new(StateFile::Questions::NjEligibilityResidenceController),
           Navigation::NavigationStep.new(StateFile::Questions::EligibilityOffboardingController, false),
           Navigation::NavigationStep.new(StateFile::Questions::EligibleController),
         ]),
