@@ -2071,11 +2071,11 @@ en:
           title: File your New York State taxes for free
         nj:
           built_with_html: "<strong>FileYourStateTaxes</strong> is built in partnership with the <strong>New Jersey Office of Innovation</strong> to integrate with the IRS Direct File tool and takes about 10 to 15 minutes to complete <strong>once your federal return is accepted</strong>. Get started by setting up your account."
+          title: File your New Jersey taxes for free
           closed_html: |
             <strong>FileYourStateTaxes</strong> is built in partnership with the New Jersey Office of Innovation to integrate with the IRS Direct File tool.<br /><br />
             We're closed for the tax season. Unfortunately you can no longer file your state return with us this year.              
-          supported_by: New Jersey Office of Innovation
-          title: File your New Jersey taxes for free
+          supported_by: Supported by the New Jersey Office of Innovation
         start_new: Click here to start a new %{state_name} State return.
         title_closed: Our free %{state_name} tax filing service is closed for the season
         welcome_back: Welcome back %{user_name}!
