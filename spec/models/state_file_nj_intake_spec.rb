@@ -29,22 +29,24 @@
 #  permanent_zip                     :string
 #  phone_number                      :string
 #  phone_number_verified_at          :datetime
-#  primary_dob                       :date
+#  primary_birth_date                :date
 #  primary_esigned                   :integer          default("unfilled"), not null
 #  primary_first_name                :string
 #  primary_last_name                 :string
 #  primary_middle_initial            :string
 #  primary_ssn                       :string
+#  primary_suffix                    :string
 #  raw_direct_file_data              :text
 #  referrer                          :string
 #  sign_in_count                     :integer          default(0), not null
 #  source                            :string
-#  spouse_dob                        :date
+#  spouse_birth_date                 :date
 #  spouse_esigned                    :integer          default("unfilled"), not null
 #  spouse_first_name                 :string
 #  spouse_last_name                  :string
 #  spouse_middle_initial             :string
 #  spouse_ssn                        :string
+#  spouse_suffix                     :string
 #  tax_return_year                   :integer
 #  created_at                        :datetime         not null
 #  updated_at                        :datetime         not null

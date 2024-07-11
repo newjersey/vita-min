@@ -13,13 +13,15 @@ class CreateStateFileNjIntakes < ActiveRecord::Migration[7.1]
       t.string :primary_first_name
       t.string :primary_middle_initial
       t.string :primary_last_name
-      t.date :primary_dob
+      t.string :primary_suffix
+      t.date :primary_birth_date
       t.string :primary_ssn
 
       t.string :spouse_first_name
       t.string :spouse_middle_initial
       t.string :spouse_last_name
-      t.date :spouse_dob
+      t.string :spouse_suffix
+      t.date :spouse_birth_date
       t.string :spouse_ssn
 
       t.string :permanent_street

@@ -29,22 +29,24 @@
 #  permanent_zip                     :string
 #  phone_number                      :string
 #  phone_number_verified_at          :datetime
-#  primary_dob                       :date
+#  primary_birth_date                :date
 #  primary_esigned                   :integer          default("unfilled"), not null
 #  primary_first_name                :string
 #  primary_last_name                 :string
 #  primary_middle_initial            :string
 #  primary_ssn                       :string
+#  primary_suffix                    :string
 #  raw_direct_file_data              :text
 #  referrer                          :string
 #  sign_in_count                     :integer          default(0), not null
 #  source                            :string
-#  spouse_dob                        :date
+#  spouse_birth_date                 :date
 #  spouse_esigned                    :integer          default("unfilled"), not null
 #  spouse_first_name                 :string
 #  spouse_last_name                  :string
 #  spouse_middle_initial             :string
 #  spouse_ssn                        :string
+#  spouse_suffix                     :string
 #  tax_return_year                   :integer
 #  created_at                        :datetime         not null
 #  updated_at                        :datetime         not null
@@ -54,6 +56,12 @@ class StateFileNjIntake < StateFileBaseIntake
 
   encrypts :account_number, :routing_number, :raw_direct_file_data
 
+  def disqualifying_df_data_reason
+    w2_states = direct_file_data.parsed_xml.css('W2StateLocalTaxGrp W2StateTaxGrp StateAbbreviationCd')
+    return :has_out_of_state_w2 if w2_states.any? do |state|
+      (state.text || '').upcase != state_code.upcase
+    end
+  end
 
   def disqualifying_eligibility_rules
     {
@@ -68,4 +76,9 @@ class StateFileNjIntake < StateFileBaseIntake
         include_source: include_source
       )
     end
+
+
+  def ask_months_in_home?
+    false
+  end
 end
