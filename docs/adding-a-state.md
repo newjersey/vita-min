@@ -59,3 +59,8 @@ Add a pdf filler: `app/lib/pdf_filler/[form name]_pdf.rb`
 ## Edit content
 - Add translated text for your state to `config/locales/[lang].yml` files as needed to get the app running
 - Edit content in `app/views/state_file/questions/eligible/edit.html.erb`
+
+## Add fake return data
+- Create a folder for your state under `spec/fixtures/state_file/fed_return_xmls/[year]`
+- Create fake xml data
+- You can select this data at the fake data transfer step
