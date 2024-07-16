@@ -26,6 +26,7 @@ module Efile
       def refund_or_owed_amount
         #refund if amount is positive, owed if amount is negative
       #   line_or_zero(:IT201_LINE_76) - line_or_zero(:IT201_LINE_62)
+        0
       end
 
       def analytics_attrs

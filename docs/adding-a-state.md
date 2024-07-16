@@ -12,9 +12,6 @@
   - Calculator class
   - Submission builder class
 
-## Include your state in multi tenant service
-- Under `SERVICE_TYPES` IN `app/services/multi_tenant_service.rb`, add your state. In the same file, add a when clause for navigation
-
 ## Add your state to the routes file
 - In `config/routes.rb`, add a `devise_for` line
 - In the same file, add our state abbreviation to the `scope ':us_state'` lines where other states are listed
