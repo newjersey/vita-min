@@ -19,7 +19,8 @@
 
 ## Add state-specific styles
 - Add your state logo under `app/assets/images/partner-logos`, naming it `[state abbreviation]gov-logo.svg`
-- Add your state color under app/assets/stylesheets/_variables.scss, naming it `$color-[state abbreviation]-[color name]`
+- Add your state color under `app/assets/stylesheets/_variables.scss`, naming it `$color-[state abbreviation]-[color name]`
+- Add your state color under `app/assets/stylesheets/_state-file.scss` in the `$state-colors` section
 
 ## Add a new navigation class
 - In the navigation class you added in `app/lib/navigation`, create sections including:
@@ -41,7 +42,7 @@
 - Add text for the question under `config/locales`
 
 ## Build XML submission builder class and any document builders
-If you do have access to the CfA folder where schemas are kept, run the rake tasks `download_efile_schemas` and `unzip_efile_schemas`. (THis has already been taken care if you ran the setup script and it worked.)
+If you do have access to the CfA folder where schemas are kept, run the rake tasks `download_efile_schemas` and `unzip_efile_schemas`. (This has already been taken care if you ran the local setup script and it worked.)
 
 If you do not but you have a zip file of schema data for your state:
 - Try adding the zip file to `vendor/us_states` and then running the rake task
