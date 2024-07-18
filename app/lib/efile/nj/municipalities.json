@@ -1,0 +1,2822 @@
+[
+  {
+    "code": "0101",
+    "municipality": "ABSECON CITY",
+    "county": "Atlantic County"
+  },
+  {
+    "code": "0102",
+    "municipality": "ATLANTIC CITY CITY",
+    "county": "Atlantic County"
+  },
+  {
+    "code": "0103",
+    "municipality": "BRIGANTINE CITY",
+    "county": "Atlantic County"
+  },
+  {
+    "code": "0104",
+    "municipality": "BUENA BORO",
+    "county": "Atlantic County"
+  },
+  {
+    "code": "0105",
+    "municipality": "BUENA VISTA TWP",
+    "county": "Atlantic County"
+  },
+  {
+    "code": "0106",
+    "municipality": "CORBIN CITY CITY",
+    "county": "Atlantic County"
+  },
+  {
+    "code": "0107",
+    "municipality": "EGG HARBOR CITY",
+    "county": "Atlantic County"
+  },
+  {
+    "code": "0108",
+    "municipality": "EGG HARBOR TWP",
+    "county": "Atlantic County"
+  },
+  {
+    "code": "0109",
+    "municipality": "ESTELL MANOR CITY",
+    "county": "Atlantic County"
+  },
+  {
+    "code": "0110",
+    "municipality": "FOLSOM BORO",
+    "county": "Atlantic County"
+  },
+  {
+    "code": "0111",
+    "municipality": "GALLOWAY TWP",
+    "county": "Atlantic County"
+  },
+  {
+    "code": "0112",
+    "municipality": "HAMILTON TWP",
+    "county": "Atlantic County"
+  },
+  {
+    "code": "0113",
+    "municipality": "HAMMONTON TOWN",
+    "county": "Atlantic County"
+  },
+  {
+    "code": "0114",
+    "municipality": "LINWOOD CITY",
+    "county": "Atlantic County"
+  },
+  {
+    "code": "0115",
+    "municipality": "LONGPORT BORO",
+    "county": "Atlantic County"
+  },
+  {
+    "code": "0116",
+    "municipality": "MARGATE CITY CITY",
+    "county": "Atlantic County"
+  },
+  {
+    "code": "0117",
+    "municipality": "MULLICA TWP",
+    "county": "Atlantic County"
+  },
+  {
+    "code": "0118",
+    "municipality": "NORTHFIELD CITY",
+    "county": "Atlantic County"
+  },
+  {
+    "code": "0119",
+    "municipality": "PLEASANTVILLE CITY",
+    "county": "Atlantic County"
+  },
+  {
+    "code": "0120",
+    "municipality": "PORT REPUBLIC CITY",
+    "county": "Atlantic County"
+  },
+  {
+    "code": "0121",
+    "municipality": "SOMERS POINT CITY",
+    "county": "Atlantic County"
+  },
+  {
+    "code": "0122",
+    "municipality": "VENTNOR CITY",
+    "county": "Atlantic County"
+  },
+  {
+    "code": "0123",
+    "municipality": "WEYMOUTH TWP",
+    "county": "Atlantic County"
+  },
+  {
+    "code": "0201",
+    "municipality": "ALLENDALE BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0202",
+    "municipality": "ALPINE BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0203",
+    "municipality": "BERGENFIELD BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0204",
+    "municipality": "BOGOTA BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0205",
+    "municipality": "CARLSTADT BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0206",
+    "municipality": "CLIFFSIDE PARK BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0207",
+    "municipality": "CLOSTER BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0208",
+    "municipality": "CRESSKILL BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0209",
+    "municipality": "DEMAREST BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0210",
+    "municipality": "DUMONT BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0211",
+    "municipality": "ELMWOOD PARK BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0212",
+    "municipality": "E RUTHERFORD BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0213",
+    "municipality": "EDGEWATER BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0214",
+    "municipality": "EMERSON BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0215",
+    "municipality": "ENGLEWOOD CITY",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0216",
+    "municipality": "ENGLEWOOD CLIFFS BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0217",
+    "municipality": "FAIRLAWN BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0218",
+    "municipality": "FAIRVIEW BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0219",
+    "municipality": "FORT LEE BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0220",
+    "municipality": "FRANKLIN LAKES BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0221",
+    "municipality": "GARFIELD CITY",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0222",
+    "municipality": "GLEN ROCK BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0223",
+    "municipality": "HACKENSACK CITY",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0224",
+    "municipality": "HARRINGTON PARK BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0225",
+    "municipality": "HASBROUCK HGHTS BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0226",
+    "municipality": "HAWORTH BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0227",
+    "municipality": "HILLSDALE BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0228",
+    "municipality": "HOHOKUS BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0229",
+    "municipality": "LEONIA BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0230",
+    "municipality": "LITTLE FERRY BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0231",
+    "municipality": "LODI BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0232",
+    "municipality": "LYNDHURST TWP",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0233",
+    "municipality": "MAHWAH TWP",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0234",
+    "municipality": "MAYWOOD BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0235",
+    "municipality": "MIDLAND PARK BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0236",
+    "municipality": "MONTVALE BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0237",
+    "municipality": "MOONACHIE BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0238",
+    "municipality": "NEW MILFORD BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0239",
+    "municipality": "NORTH ARLINGTON BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0240",
+    "municipality": "NORTHVALE BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0241",
+    "municipality": "NORWOOD BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0242",
+    "municipality": "OAKLAND BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0243",
+    "municipality": "OLD TAPPAN BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0244",
+    "municipality": "ORADELL BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0245",
+    "municipality": "PALISADES PARK BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0246",
+    "municipality": "PARAMUS BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0247",
+    "municipality": "PARK RIDGE BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0248",
+    "municipality": "RAMSEY BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0249",
+    "municipality": "RIDGEFIELD BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0250",
+    "municipality": "RIDGEFIELD PARK VILLAGE",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0251",
+    "municipality": "RIDGEWOOD VILLAGE",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0252",
+    "municipality": "RIVEREDGE BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0253",
+    "municipality": "RIVERVALE TWP",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0254",
+    "municipality": "ROCHELLE PARK TWP",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0255",
+    "municipality": "ROCKLEIGH BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0256",
+    "municipality": "RUTHERFORD BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0257",
+    "municipality": "SADDLE BROOK TWP",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0258",
+    "municipality": "SADDLE RIVER BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0259",
+    "municipality": "SO HACKENSACK TWP",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0260",
+    "municipality": "TEANECK TWP",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0261",
+    "municipality": "TENAFLY BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0262",
+    "municipality": "TETERBORO BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0263",
+    "municipality": "UPPER SADDLE RIV BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0264",
+    "municipality": "WALDWICK BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0265",
+    "municipality": "WALLINGTON BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0266",
+    "municipality": "WASHINGTON TWP",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0267",
+    "municipality": "WESTWOOD BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0268",
+    "municipality": "WOODCLIFF LAKE BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0269",
+    "municipality": "WOOD RIDGE BORO",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0270",
+    "municipality": "WYCKOFF TWP",
+    "county": "Bergen County"
+  },
+  {
+    "code": "0301",
+    "municipality": "BASS RIVER TWP",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0302",
+    "municipality": "BEVERLY CITY",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0303",
+    "municipality": "BORDENTOWN CITY",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0304",
+    "municipality": "BORDENTOWN TWP",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0305",
+    "municipality": "BURLINGTON CITY",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0306",
+    "municipality": "BURLINGTON TWP",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0307",
+    "municipality": "CHESTERFIELD TWP",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0308",
+    "municipality": "CINNAMINSON TWP",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0309",
+    "municipality": "DELANCO TWP",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0310",
+    "municipality": "DELRAN TWP",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0311",
+    "municipality": "EASTAMPTON TWP",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0312",
+    "municipality": "EDGEWATER PARK TWP",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0313",
+    "municipality": "EVESHAM TWP",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0314",
+    "municipality": "FIELDSBORO BORO",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0315",
+    "municipality": "FLORENCE TWP",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0316",
+    "municipality": "HAINESPORT TWP",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0317",
+    "municipality": "LUMBERTON TWP",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0318",
+    "municipality": "MANSFIELD TWP",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0319",
+    "municipality": "MAPLE SHADE TWP",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0320",
+    "municipality": "MEDFORD TWP",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0321",
+    "municipality": "MEDFORD LAKES BORO",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0322",
+    "municipality": "MOORESTOWN TWP",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0323",
+    "municipality": "MT HOLLY TWP",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0324",
+    "municipality": "MT LAUREL TWP",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0325",
+    "municipality": "NEW HANOVER TWP",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0326",
+    "municipality": "NO HANOVER TWP",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0327",
+    "municipality": "PALMYRA BORO",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0328",
+    "municipality": "PEMBERTON BORO",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0329",
+    "municipality": "PEMBERTON TWP",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0330",
+    "municipality": "RIVERSIDE TWP",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0331",
+    "municipality": "RIVERTON BORO",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0332",
+    "municipality": "SHAMONG TWP",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0333",
+    "municipality": "SOUTHAMPTON TWP",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0334",
+    "municipality": "SPRINGFIELD TWP",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0335",
+    "municipality": "TABERNACLE TWP",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0336",
+    "municipality": "WASHINGTON TWP",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0337",
+    "municipality": "WESTAMPTON TWP",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0338",
+    "municipality": "WILLINGBORO TWP",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0339",
+    "municipality": "WOODLAND TWP",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0340",
+    "municipality": "WRIGHTSTOWN BORO",
+    "county": "Burlington County"
+  },
+  {
+    "code": "0401",
+    "municipality": "AUDUBON BORO",
+    "county": "Camden County"
+  },
+  {
+    "code": "0402",
+    "municipality": "AUDUBON PARK BORO",
+    "county": "Camden County"
+  },
+  {
+    "code": "0403",
+    "municipality": "BARRINGTON BORO",
+    "county": "Camden County"
+  },
+  {
+    "code": "0404",
+    "municipality": "BELLMAWR BORO",
+    "county": "Camden County"
+  },
+  {
+    "code": "0405",
+    "municipality": "BERLIN BORO",
+    "county": "Camden County"
+  },
+  {
+    "code": "0406",
+    "municipality": "BERLIN TWP",
+    "county": "Camden County"
+  },
+  {
+    "code": "0407",
+    "municipality": "BROOKLAWN BORO",
+    "county": "Camden County"
+  },
+  {
+    "code": "0408",
+    "municipality": "CAMDEN CITY",
+    "county": "Camden County"
+  },
+  {
+    "code": "0409",
+    "municipality": "CHERRY HILL TWNSHP",
+    "county": "Camden County"
+  },
+  {
+    "code": "0410",
+    "municipality": "CHESILHURST BORO",
+    "county": "Camden County"
+  },
+  {
+    "code": "0411",
+    "municipality": "CLEMENTON BORO",
+    "county": "Camden County"
+  },
+  {
+    "code": "0412",
+    "municipality": "COLLINGSWOOD BORO",
+    "county": "Camden County"
+  },
+  {
+    "code": "0413",
+    "municipality": "GIBBSBORO BORO",
+    "county": "Camden County"
+  },
+  {
+    "code": "0414",
+    "municipality": "GLOUCESTER CITY",
+    "county": "Camden County"
+  },
+  {
+    "code": "0415",
+    "municipality": "GLOUCESTER TWP",
+    "county": "Camden County"
+  },
+  {
+    "code": "0416",
+    "municipality": "HADDON TWP",
+    "county": "Camden County"
+  },
+  {
+    "code": "0417",
+    "municipality": "HADDONFIELD BORO",
+    "county": "Camden County"
+  },
+  {
+    "code": "0418",
+    "municipality": "HADDON HEIGHTS BORO",
+    "county": "Camden County"
+  },
+  {
+    "code": "0419",
+    "municipality": "HI NELLA BORO",
+    "county": "Camden County"
+  },
+  {
+    "code": "0420",
+    "municipality": "LAUREL SPRINGS BORO",
+    "county": "Camden County"
+  },
+  {
+    "code": "0421",
+    "municipality": "LAWNSIDE BORO",
+    "county": "Camden County"
+  },
+  {
+    "code": "0422",
+    "municipality": "LINDENWOLD BORO",
+    "county": "Camden County"
+  },
+  {
+    "code": "0423",
+    "municipality": "MAGNOLIA BORO",
+    "county": "Camden County"
+  },
+  {
+    "code": "0424",
+    "municipality": "MERCHANTVILLE BORO",
+    "county": "Camden County"
+  },
+  {
+    "code": "0425",
+    "municipality": "MOUNT EPHRAIM BORO",
+    "county": "Camden County"
+  },
+  {
+    "code": "0426",
+    "municipality": "OAKLYN BORO",
+    "county": "Camden County"
+  },
+  {
+    "code": "0427",
+    "municipality": "PENNSAUKEN TWP",
+    "county": "Camden County"
+  },
+  {
+    "code": "0428",
+    "municipality": "PINE HILL BORO",
+    "county": "Camden County"
+  },
+  {
+    "code": "0430",
+    "municipality": "RUNNEMEDE BORO",
+    "county": "Camden County"
+  },
+  {
+    "code": "0431",
+    "municipality": "SOMERDALE BORO",
+    "county": "Camden County"
+  },
+  {
+    "code": "0432",
+    "municipality": "STRATFORD BORO",
+    "county": "Camden County"
+  },
+  {
+    "code": "0433",
+    "municipality": "TAVISTOCK BORO",
+    "county": "Camden County"
+  },
+  {
+    "code": "0434",
+    "municipality": "VOORHEES TWP",
+    "county": "Camden County"
+  },
+  {
+    "code": "0435",
+    "municipality": "WATERFORD TWP",
+    "county": "Camden County"
+  },
+  {
+    "code": "0436",
+    "municipality": "WINSLOW TWP",
+    "county": "Camden County"
+  },
+  {
+    "code": "0437",
+    "municipality": "WOODLYNNE BORO",
+    "county": "Camden County"
+  },
+  {
+    "code": "0501",
+    "municipality": "AVALON BORO",
+    "county": "Cape May County"
+  },
+  {
+    "code": "0502",
+    "municipality": "CAPE MAY CITY",
+    "county": "Cape May County"
+  },
+  {
+    "code": "0503",
+    "municipality": "CAPE MAY POINT BORO",
+    "county": "Cape May County"
+  },
+  {
+    "code": "0504",
+    "municipality": "DENNIS TWP",
+    "county": "Cape May County"
+  },
+  {
+    "code": "0505",
+    "municipality": "LOWER TWP",
+    "county": "Cape May County"
+  },
+  {
+    "code": "0506",
+    "municipality": "MIDDLE TWP",
+    "county": "Cape May County"
+  },
+  {
+    "code": "0507",
+    "municipality": "NORTH WILDWOOD CITY",
+    "county": "Cape May County"
+  },
+  {
+    "code": "0508",
+    "municipality": "OCEAN CITY CITY",
+    "county": "Cape May County"
+  },
+  {
+    "code": "0509",
+    "municipality": "SEA ISLE CITY CITY",
+    "county": "Cape May County"
+  },
+  {
+    "code": "0510",
+    "municipality": "STONE HARBOR BORO",
+    "county": "Cape May County"
+  },
+  {
+    "code": "0511",
+    "municipality": "UPPER TWP",
+    "county": "Cape May County"
+  },
+  {
+    "code": "0512",
+    "municipality": "WEST CAPE MAY BORO",
+    "county": "Cape May County"
+  },
+  {
+    "code": "0513",
+    "municipality": "WEST WILDWOOD BORO",
+    "county": "Cape May County"
+  },
+  {
+    "code": "0514",
+    "municipality": "WILDWOOD CITY",
+    "county": "Cape May County"
+  },
+  {
+    "code": "0515",
+    "municipality": "WILDWOOD CREST BORO",
+    "county": "Cape May County"
+  },
+  {
+    "code": "0516",
+    "municipality": "WOODBINE BORO",
+    "county": "Cape May County"
+  },
+  {
+    "code": "0601",
+    "municipality": "BRIDGETON CITY",
+    "county": "Cumberland County"
+  },
+  {
+    "code": "0602",
+    "municipality": "COMMERCIAL TWP",
+    "county": "Cumberland County"
+  },
+  {
+    "code": "0603",
+    "municipality": "DEERFIELD TWP",
+    "county": "Cumberland County"
+  },
+  {
+    "code": "0604",
+    "municipality": "DOWNE TWP",
+    "county": "Cumberland County"
+  },
+  {
+    "code": "0605",
+    "municipality": "FAIRFIELD TWP",
+    "county": "Cumberland County"
+  },
+  {
+    "code": "0606",
+    "municipality": "GREENWICH TWP",
+    "county": "Cumberland County"
+  },
+  {
+    "code": "0607",
+    "municipality": "HOPEWELL TWP",
+    "county": "Cumberland County"
+  },
+  {
+    "code": "0608",
+    "municipality": "LAWRENCE TWP",
+    "county": "Cumberland County"
+  },
+  {
+    "code": "0609",
+    "municipality": "MAURICE RIVER TWP",
+    "county": "Cumberland County"
+  },
+  {
+    "code": "0610",
+    "municipality": "MILLVILLE CITY",
+    "county": "Cumberland County"
+  },
+  {
+    "code": "0611",
+    "municipality": "SHILOH BORO",
+    "county": "Cumberland County"
+  },
+  {
+    "code": "0612",
+    "municipality": "STOW CREEK TWP",
+    "county": "Cumberland County"
+  },
+  {
+    "code": "0613",
+    "municipality": "UPPER DEERFIELD TWP",
+    "county": "Cumberland County"
+  },
+  {
+    "code": "0614",
+    "municipality": "VINELAND CITY",
+    "county": "Cumberland County"
+  },
+  {
+    "code": "0701",
+    "municipality": "BELLEVILLE TWP",
+    "county": "Essex County"
+  },
+  {
+    "code": "0702",
+    "municipality": "BLOOMFIELD TWP",
+    "county": "Essex County"
+  },
+  {
+    "code": "0703",
+    "municipality": "CALDWELL BORO TWP",
+    "county": "Essex County"
+  },
+  {
+    "code": "0704",
+    "municipality": "CEDAR GROVE TWP",
+    "county": "Essex County"
+  },
+  {
+    "code": "0705",
+    "municipality": "EAST ORANGE CITY",
+    "county": "Essex County"
+  },
+  {
+    "code": "0706",
+    "municipality": "ESSEX FELLS TWP",
+    "county": "Essex County"
+  },
+  {
+    "code": "0707",
+    "municipality": "FAIRFIELD TWP",
+    "county": "Essex County"
+  },
+  {
+    "code": "0708",
+    "municipality": "GLEN RIDGE BORO",
+    "county": "Essex County"
+  },
+  {
+    "code": "0709",
+    "municipality": "IRVINGTON TWP",
+    "county": "Essex County"
+  },
+  {
+    "code": "0710",
+    "municipality": "LIVINGSTON TWP",
+    "county": "Essex County"
+  },
+  {
+    "code": "0711",
+    "municipality": "MAPLEWOOD TWP",
+    "county": "Essex County"
+  },
+  {
+    "code": "0712",
+    "municipality": "MILLBURN TWP",
+    "county": "Essex County"
+  },
+  {
+    "code": "0713",
+    "municipality": "MONTCLAIR TWP",
+    "county": "Essex County"
+  },
+  {
+    "code": "0714",
+    "municipality": "NEWARK CITY",
+    "county": "Essex County"
+  },
+  {
+    "code": "0715",
+    "municipality": "NORTH CALDWELL TWP",
+    "county": "Essex County"
+  },
+  {
+    "code": "0716",
+    "municipality": "NUTLEY TWP",
+    "county": "Essex County"
+  },
+  {
+    "code": "0717",
+    "municipality": "ORANGE CITY TWP",
+    "county": "Essex County"
+  },
+  {
+    "code": "0718",
+    "municipality": "ROSELAND BORO",
+    "county": "Essex County"
+  },
+  {
+    "code": "0719",
+    "municipality": "SOUTH ORANGE VILLAGE TW",
+    "county": "Essex County"
+  },
+  {
+    "code": "0720",
+    "municipality": "VERONA TWP",
+    "county": "Essex County"
+  },
+  {
+    "code": "0721",
+    "municipality": "WEST CALDWELL TWP",
+    "county": "Essex County"
+  },
+  {
+    "code": "0722",
+    "municipality": "WEST ORANGE TWP",
+    "county": "Essex County"
+  },
+  {
+    "code": "0801",
+    "municipality": "CLAYTON BORO",
+    "county": "Gloucester County"
+  },
+  {
+    "code": "0802",
+    "municipality": "DEPTFORD TWP",
+    "county": "Gloucester County"
+  },
+  {
+    "code": "0803",
+    "municipality": "EAST GREENWICH TWP",
+    "county": "Gloucester County"
+  },
+  {
+    "code": "0804",
+    "municipality": "ELK TWP",
+    "county": "Gloucester County"
+  },
+  {
+    "code": "0805",
+    "municipality": "FRANKLIN TWP",
+    "county": "Gloucester County"
+  },
+  {
+    "code": "0806",
+    "municipality": "GLASSBORO BORO",
+    "county": "Gloucester County"
+  },
+  {
+    "code": "0807",
+    "municipality": "GREENWICH TWP",
+    "county": "Gloucester County"
+  },
+  {
+    "code": "0808",
+    "municipality": "HARRISON TWP",
+    "county": "Gloucester County"
+  },
+  {
+    "code": "0809",
+    "municipality": "LOGAN TWP",
+    "county": "Gloucester County"
+  },
+  {
+    "code": "0810",
+    "municipality": "MANTUA TWP",
+    "county": "Gloucester County"
+  },
+  {
+    "code": "0811",
+    "municipality": "MONROE TWP",
+    "county": "Gloucester County"
+  },
+  {
+    "code": "0812",
+    "municipality": "NATIONAL PARK BORO",
+    "county": "Gloucester County"
+  },
+  {
+    "code": "0813",
+    "municipality": "NEWFIELD BORO",
+    "county": "Gloucester County"
+  },
+  {
+    "code": "0814",
+    "municipality": "PAULSBORO BORO",
+    "county": "Gloucester County"
+  },
+  {
+    "code": "0815",
+    "municipality": "PITMAN BORO",
+    "county": "Gloucester County"
+  },
+  {
+    "code": "0816",
+    "municipality": "SO HARRISON TWP",
+    "county": "Gloucester County"
+  },
+  {
+    "code": "0817",
+    "municipality": "SWEDESBORO BORO",
+    "county": "Gloucester County"
+  },
+  {
+    "code": "0818",
+    "municipality": "WASHINGTON TWP",
+    "county": "Gloucester County"
+  },
+  {
+    "code": "0819",
+    "municipality": "WENONAH BORO",
+    "county": "Gloucester County"
+  },
+  {
+    "code": "0820",
+    "municipality": "WEST DEPTFORD TWP",
+    "county": "Gloucester County"
+  },
+  {
+    "code": "0821",
+    "municipality": "WESTVILLE BORO",
+    "county": "Gloucester County"
+  },
+  {
+    "code": "0822",
+    "municipality": "WOODBURY CITY",
+    "county": "Gloucester County"
+  },
+  {
+    "code": "0823",
+    "municipality": "WOODBURY HEIGHTS BORO",
+    "county": "Gloucester County"
+  },
+  {
+    "code": "0824",
+    "municipality": "WOOLWICH TWP",
+    "county": "Gloucester County"
+  },
+  {
+    "code": "0901",
+    "municipality": "BAYONNE CITY",
+    "county": "Hudson County"
+  },
+  {
+    "code": "0902",
+    "municipality": "EAST NEWARK BORO",
+    "county": "Hudson County"
+  },
+  {
+    "code": "0903",
+    "municipality": "GUTTENBERG TOWN",
+    "county": "Hudson County"
+  },
+  {
+    "code": "0904",
+    "municipality": "HARRISON TOWN",
+    "county": "Hudson County"
+  },
+  {
+    "code": "0905",
+    "municipality": "HOBOKEN CITY",
+    "county": "Hudson County"
+  },
+  {
+    "code": "0906",
+    "municipality": "JERSEY CITY CITY",
+    "county": "Hudson County"
+  },
+  {
+    "code": "0907",
+    "municipality": "KEARNY TOWN",
+    "county": "Hudson County"
+  },
+  {
+    "code": "0908",
+    "municipality": "NORTH BERGEN TWP",
+    "county": "Hudson County"
+  },
+  {
+    "code": "0909",
+    "municipality": "SECAUCUS TOWN",
+    "county": "Hudson County"
+  },
+  {
+    "code": "0910",
+    "municipality": "UNION CITY CITY",
+    "county": "Hudson County"
+  },
+  {
+    "code": "0911",
+    "municipality": "WEEHAWKEN TWP",
+    "county": "Hudson County"
+  },
+  {
+    "code": "0912",
+    "municipality": "WEST NEW YORK TOWN",
+    "county": "Hudson County"
+  },
+  {
+    "code": "1001",
+    "municipality": "ALEXANDRIA TWP",
+    "county": "Hunterdon County"
+  },
+  {
+    "code": "1002",
+    "municipality": "BETHLEHEM TWP",
+    "county": "Hunterdon County"
+  },
+  {
+    "code": "1003",
+    "municipality": "BLOOMSBURY BORO",
+    "county": "Hunterdon County"
+  },
+  {
+    "code": "1004",
+    "municipality": "CALIFON BORO",
+    "county": "Hunterdon County"
+  },
+  {
+    "code": "1005",
+    "municipality": "CLINTON TOWN",
+    "county": "Hunterdon County"
+  },
+  {
+    "code": "1006",
+    "municipality": "CLINTON TWP",
+    "county": "Hunterdon County"
+  },
+  {
+    "code": "1007",
+    "municipality": "DELAWARE TWP",
+    "county": "Hunterdon County"
+  },
+  {
+    "code": "1008",
+    "municipality": "EAST AMWELL TWP",
+    "county": "Hunterdon County"
+  },
+  {
+    "code": "1009",
+    "municipality": "FLEMINGTON BORO",
+    "county": "Hunterdon County"
+  },
+  {
+    "code": "1010",
+    "municipality": "FRANKLIN TWP",
+    "county": "Hunterdon County"
+  },
+  {
+    "code": "1011",
+    "municipality": "FRENCHTOWN BORO",
+    "county": "Hunterdon County"
+  },
+  {
+    "code": "1012",
+    "municipality": "GLEN GARDNER BORO",
+    "county": "Hunterdon County"
+  },
+  {
+    "code": "1013",
+    "municipality": "HAMPTON BORO",
+    "county": "Hunterdon County"
+  },
+  {
+    "code": "1014",
+    "municipality": "HIGH BRIDGE BORO",
+    "county": "Hunterdon County"
+  },
+  {
+    "code": "1015",
+    "municipality": "HOLLAND TWP",
+    "county": "Hunterdon County"
+  },
+  {
+    "code": "1016",
+    "municipality": "KINGWOOD TWP",
+    "county": "Hunterdon County"
+  },
+  {
+    "code": "1017",
+    "municipality": "LAMBERTVILLE CITY",
+    "county": "Hunterdon County"
+  },
+  {
+    "code": "1018",
+    "municipality": "LEBANON BORO",
+    "county": "Hunterdon County"
+  },
+  {
+    "code": "1019",
+    "municipality": "LEBANON TWP",
+    "county": "Hunterdon County"
+  },
+  {
+    "code": "1020",
+    "municipality": "MILFORD BORO",
+    "county": "Hunterdon County"
+  },
+  {
+    "code": "1021",
+    "municipality": "RARITAN TWP",
+    "county": "Hunterdon County"
+  },
+  {
+    "code": "1022",
+    "municipality": "READINGTON TWP",
+    "county": "Hunterdon County"
+  },
+  {
+    "code": "1023",
+    "municipality": "STOCKTON BORO",
+    "county": "Hunterdon County"
+  },
+  {
+    "code": "1024",
+    "municipality": "TEWKSBURY TWP",
+    "county": "Hunterdon County"
+  },
+  {
+    "code": "1025",
+    "municipality": "UNION TWP",
+    "county": "Hunterdon County"
+  },
+  {
+    "code": "1026",
+    "municipality": "WEST AMWELL TWP",
+    "county": "Hunterdon County"
+  },
+  {
+    "code": "1101",
+    "municipality": "EAST WINDSOR TWP",
+    "county": "Mercer County"
+  },
+  {
+    "code": "1102",
+    "municipality": "EWING TWP",
+    "county": "Mercer County"
+  },
+  {
+    "code": "1103",
+    "municipality": "HAMILTON TWP",
+    "county": "Mercer County"
+  },
+  {
+    "code": "1104",
+    "municipality": "HIGHTSTOWN BORO",
+    "county": "Mercer County"
+  },
+  {
+    "code": "1105",
+    "municipality": "HOPEWELL BORO",
+    "county": "Mercer County"
+  },
+  {
+    "code": "1106",
+    "municipality": "HOPEWELL TWP",
+    "county": "Mercer County"
+  },
+  {
+    "code": "1107",
+    "municipality": "LAWRENCE TWP",
+    "county": "Mercer County"
+  },
+  {
+    "code": "1108",
+    "municipality": "PENNINGTON BORO",
+    "county": "Mercer County"
+  },
+  {
+    "code": "1111",
+    "municipality": "TRENTON CITY",
+    "county": "Mercer County"
+  },
+  {
+    "code": "1112",
+    "municipality": "ROBBINSVILLE TWP",
+    "county": "Mercer County"
+  },
+  {
+    "code": "1113",
+    "municipality": "WEST WINDSOR TWP",
+    "county": "Mercer County"
+  },
+  {
+    "code": "1114",
+    "municipality": "PRINCETON",
+    "county": "Mercer County"
+  },
+  {
+    "code": "1201",
+    "municipality": "CARTERET BORO",
+    "county": "Middlesex County"
+  },
+  {
+    "code": "1202",
+    "municipality": "CRANBURY TWP",
+    "county": "Middlesex County"
+  },
+  {
+    "code": "1203",
+    "municipality": "DUNELLEN BORO",
+    "county": "Middlesex County"
+  },
+  {
+    "code": "1204",
+    "municipality": "EAST BRUNSWICK TWP",
+    "county": "Middlesex County"
+  },
+  {
+    "code": "1205",
+    "municipality": "EDISON TWP",
+    "county": "Middlesex County"
+  },
+  {
+    "code": "1206",
+    "municipality": "HELMETTA BORO",
+    "county": "Middlesex County"
+  },
+  {
+    "code": "1207",
+    "municipality": "HIGHLAND PARK BORO",
+    "county": "Middlesex County"
+  },
+  {
+    "code": "1208",
+    "municipality": "JAMESBURG BORO",
+    "county": "Middlesex County"
+  },
+  {
+    "code": "1209",
+    "municipality": "METUCHEN BORO",
+    "county": "Middlesex County"
+  },
+  {
+    "code": "1210",
+    "municipality": "MIDDLESEX BORO",
+    "county": "Middlesex County"
+  },
+  {
+    "code": "1211",
+    "municipality": "MILLTOWN BORO",
+    "county": "Middlesex County"
+  },
+  {
+    "code": "1212",
+    "municipality": "MONROE TWP",
+    "county": "Middlesex County"
+  },
+  {
+    "code": "1213",
+    "municipality": "NEW BRUNSWICK CITY",
+    "county": "Middlesex County"
+  },
+  {
+    "code": "1214",
+    "municipality": "NORTH BRUNSWICK TWP",
+    "county": "Middlesex County"
+  },
+  {
+    "code": "1215",
+    "municipality": "OLD BRIDGE TWP",
+    "county": "Middlesex County"
+  },
+  {
+    "code": "1216",
+    "municipality": "PERTH AMBOY CITY",
+    "county": "Middlesex County"
+  },
+  {
+    "code": "1217",
+    "municipality": "PISCATAWAY TWP",
+    "county": "Middlesex County"
+  },
+  {
+    "code": "1218",
+    "municipality": "PLAINSBORO TWP",
+    "county": "Middlesex County"
+  },
+  {
+    "code": "1219",
+    "municipality": "SAYREVILLE BORO",
+    "county": "Middlesex County"
+  },
+  {
+    "code": "1220",
+    "municipality": "SOUTH AMBOY CITY",
+    "county": "Middlesex County"
+  },
+  {
+    "code": "1221",
+    "municipality": "SOUTH BRUNSWICK TWP",
+    "county": "Middlesex County"
+  },
+  {
+    "code": "1222",
+    "municipality": "SOUTH PLAINFIELD BORO",
+    "county": "Middlesex County"
+  },
+  {
+    "code": "1223",
+    "municipality": "SOUTH RIVER BORO",
+    "county": "Middlesex County"
+  },
+  {
+    "code": "1224",
+    "municipality": "SPOTSWOOD BORO",
+    "county": "Middlesex County"
+  },
+  {
+    "code": "1225",
+    "municipality": "WOODBRIDGE TWP",
+    "county": "Middlesex County"
+  },
+  {
+    "code": "1301",
+    "municipality": "ABERDEEN TWP",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1302",
+    "municipality": "ALLENHURST BORO",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1303",
+    "municipality": "ALLENTOWN BORO",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1304",
+    "municipality": "ASBURY PARK CITY",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1305",
+    "municipality": "ATLANTIC HIGHLANDS BORO",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1306",
+    "municipality": "AVON BY THE SEA BORO",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1307",
+    "municipality": "BELMAR BORO",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1308",
+    "municipality": "BRADLEY BEACH BORO",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1309",
+    "municipality": "BRIELLE BORO",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1310",
+    "municipality": "COLTS NECK TOWNSHIP",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1311",
+    "municipality": "DEAL BORO",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1312",
+    "municipality": "EATONTOWN BORO",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1313",
+    "municipality": "ENGLISHTOWN BORO",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1314",
+    "municipality": "FAIR HAVEN BORO",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1315",
+    "municipality": "FARMINGDALE BORO",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1316",
+    "municipality": "FREEHOLD BORO",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1317",
+    "municipality": "FREEHOLD TWP",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1318",
+    "municipality": "HAZLET TWP",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1319",
+    "municipality": "HIGHLANDS BORO",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1320",
+    "municipality": "HOLMDEL TWP",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1321",
+    "municipality": "HOWELL TWP",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1322",
+    "municipality": "INTERLAKEN BORO",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1323",
+    "municipality": "KEANSBURG BORO",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1324",
+    "municipality": "KEYPORT BORO",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1325",
+    "municipality": "LITTLE SILVER BORO",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1326",
+    "municipality": "LOCH ARBOUR VILLAGE",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1327",
+    "municipality": "LONG BRANCH CITY",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1328",
+    "municipality": "MANALAPAN TWP",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1329",
+    "municipality": "MANASQUAN BORO",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1330",
+    "municipality": "MARLBORO TWP",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1331",
+    "municipality": "MATAWAN BORO",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1332",
+    "municipality": "MIDDLETOWN TWP",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1333",
+    "municipality": "MILLSTONE TWP",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1334",
+    "municipality": "MONMOUTH BEACH BORO",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1335",
+    "municipality": "NEPTUNE TWP",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1336",
+    "municipality": "NEPTUNE CITY BORO",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1337",
+    "municipality": "OCEAN TWP",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1338",
+    "municipality": "OCEANPORT BORO",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1339",
+    "municipality": "RED BANK BORO",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1340",
+    "municipality": "ROOSEVELT BORO",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1341",
+    "municipality": "RUMSON BORO",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1342",
+    "municipality": "SEA BRIGHT BORO",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1343",
+    "municipality": "SEA GIRT BORO",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1344",
+    "municipality": "SHREWSBURY BORO",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1345",
+    "municipality": "SHREWSBURY TWP",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1346",
+    "municipality": "LAKE COMO BORO",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1347",
+    "municipality": "SPRING LAKE BORO",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1348",
+    "municipality": "SPRING LAKE HEIGHTS BOR",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1349",
+    "municipality": "TINTON FALLS BORO",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1350",
+    "municipality": "UNION BEACH BORO",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1351",
+    "municipality": "UPPER FREEHOLD TWP",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1352",
+    "municipality": "WALL TWP",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1353",
+    "municipality": "WEST LONG BRANCH BORO",
+    "county": "Monmouth County"
+  },
+  {
+    "code": "1401",
+    "municipality": "BOONTON TOWN",
+    "county": "Morris County"
+  },
+  {
+    "code": "1402",
+    "municipality": "BOONTON TWP",
+    "county": "Morris County"
+  },
+  {
+    "code": "1403",
+    "municipality": "BUTLER BORO",
+    "county": "Morris County"
+  },
+  {
+    "code": "1404",
+    "municipality": "CHATHAM BORO",
+    "county": "Morris County"
+  },
+  {
+    "code": "1405",
+    "municipality": "CHATHAM TWP",
+    "county": "Morris County"
+  },
+  {
+    "code": "1406",
+    "municipality": "CHESTER BORO",
+    "county": "Morris County"
+  },
+  {
+    "code": "1407",
+    "municipality": "CHESTER TWP",
+    "county": "Morris County"
+  },
+  {
+    "code": "1408",
+    "municipality": "DENVILLE TWP",
+    "county": "Morris County"
+  },
+  {
+    "code": "1409",
+    "municipality": "DOVER TOWN",
+    "county": "Morris County"
+  },
+  {
+    "code": "1410",
+    "municipality": "EAST HANOVER TWP",
+    "county": "Morris County"
+  },
+  {
+    "code": "1411",
+    "municipality": "FLORHAM PARK BORO",
+    "county": "Morris County"
+  },
+  {
+    "code": "1412",
+    "municipality": "HANOVER TWP",
+    "county": "Morris County"
+  },
+  {
+    "code": "1413",
+    "municipality": "HARDING TWP",
+    "county": "Morris County"
+  },
+  {
+    "code": "1414",
+    "municipality": "JEFFERSON TWP",
+    "county": "Morris County"
+  },
+  {
+    "code": "1415",
+    "municipality": "KINNELON BORO",
+    "county": "Morris County"
+  },
+  {
+    "code": "1416",
+    "municipality": "LINCOLN PARK BORO",
+    "county": "Morris County"
+  },
+  {
+    "code": "1417",
+    "municipality": "MADISON BORO",
+    "county": "Morris County"
+  },
+  {
+    "code": "1418",
+    "municipality": "MENDHAM BORO",
+    "county": "Morris County"
+  },
+  {
+    "code": "1419",
+    "municipality": "MENDHAM TWP",
+    "county": "Morris County"
+  },
+  {
+    "code": "1420",
+    "municipality": "MINE HILL TWP",
+    "county": "Morris County"
+  },
+  {
+    "code": "1421",
+    "municipality": "MONTVILLE TWP",
+    "county": "Morris County"
+  },
+  {
+    "code": "1422",
+    "municipality": "MORRIS TWP",
+    "county": "Morris County"
+  },
+  {
+    "code": "1423",
+    "municipality": "MORRIS PLAINS BORO",
+    "county": "Morris County"
+  },
+  {
+    "code": "1424",
+    "municipality": "MORRISTOWN TOWN",
+    "county": "Morris County"
+  },
+  {
+    "code": "1425",
+    "municipality": "MOUNTAIN LAKES BORO",
+    "county": "Morris County"
+  },
+  {
+    "code": "1426",
+    "municipality": "MOUNT ARLINGTON BORO",
+    "county": "Morris County"
+  },
+  {
+    "code": "1427",
+    "municipality": "MOUNT OLIVE TWP",
+    "county": "Morris County"
+  },
+  {
+    "code": "1428",
+    "municipality": "NETCONG BORO",
+    "county": "Morris County"
+  },
+  {
+    "code": "1429",
+    "municipality": "PARSIPPANY TR HLS TWP",
+    "county": "Morris County"
+  },
+  {
+    "code": "1430",
+    "municipality": "LONG HILL TWP",
+    "county": "Morris County"
+  },
+  {
+    "code": "1431",
+    "municipality": "PEQUANNOCK TWP",
+    "county": "Morris County"
+  },
+  {
+    "code": "1432",
+    "municipality": "RANDOLPH TWP",
+    "county": "Morris County"
+  },
+  {
+    "code": "1433",
+    "municipality": "RIVERDALE BORO",
+    "county": "Morris County"
+  },
+  {
+    "code": "1434",
+    "municipality": "ROCKAWAY BORO",
+    "county": "Morris County"
+  },
+  {
+    "code": "1435",
+    "municipality": "ROCKAWAY TWP",
+    "county": "Morris County"
+  },
+  {
+    "code": "1436",
+    "municipality": "ROXBURY TWP",
+    "county": "Morris County"
+  },
+  {
+    "code": "1437",
+    "municipality": "VICTORY GARDENS BORO",
+    "county": "Morris County"
+  },
+  {
+    "code": "1438",
+    "municipality": "WASHINGTON TWP",
+    "county": "Morris County"
+  },
+  {
+    "code": "1439",
+    "municipality": "WHARTON BORO",
+    "county": "Morris County"
+  },
+  {
+    "code": "1501",
+    "municipality": "BARNEGAT TWP", 
+    "county": "Ocean County"
+  },
+  {
+    "code": "1502",
+    "municipality": "BARNEGAT LIGHT BORO", 
+    "county": "Ocean County"
+  },
+  {
+    "code": "1503",
+    "municipality": "BAY HEAD BORO", 
+    "county": "Ocean County"
+  },
+  {
+    "code": "1504",
+    "municipality": "BEACH HAVEN BORO", 
+    "county": "Ocean County"
+  },
+  {
+    "code": "1505",
+    "municipality": "BEACHWOOD BORO", 
+    "county": "Ocean County"
+  },
+  {
+    "code": "1506",
+    "municipality": "BERKELEY TWP", 
+    "county": "Ocean County"
+  },
+  {
+    "code": "1507",
+    "municipality": "BRICK TWP", 
+    "county": "Ocean County"
+  },
+  {
+    "code": "1508",
+    "municipality": "TOMS RIVER TWP", 
+    "county": "Ocean County"
+  },
+  {
+    "code": "1509",
+    "municipality": "EAGLESWOOD TWP", 
+    "county": "Ocean County"
+  },
+  {
+    "code": "1510",
+    "municipality": "HARVEY CEDARS BORO", 
+    "county": "Ocean County"
+  },
+  {
+    "code": "1511",
+    "municipality": "ISLAND HEIGHTS BORO", 
+    "county": "Ocean County"
+  },
+  {
+    "code": "1512",
+    "municipality": "JACKSON TWP", 
+    "county": "Ocean County"
+  },
+  {
+    "code": "1513",
+    "municipality": "LACEY TWP", 
+    "county": "Ocean County"
+  },
+  {
+    "code": "1514",
+    "municipality": "LAKEHURST BORO", 
+    "county": "Ocean County"
+  },
+  {
+    "code": "1515",
+    "municipality": "LAKEWOOD TWP", 
+    "county": "Ocean County"
+  },
+  {
+    "code": "1516",
+    "municipality": "LAVALLETTE BORO", 
+    "county": "Ocean County"
+  },
+  {
+    "code": "1517",
+    "municipality": "LITTLE EGG HARBOR TWP", 
+    "county": "Ocean County"
+  },
+  {
+    "code": "1518",
+    "municipality": "LONG BEACH TWP", 
+    "county": "Ocean County"
+  },
+  {
+    "code": "1519",
+    "municipality": "MANCHESTER TWP", 
+    "county": "Ocean County"
+  },
+  {
+    "code": "1520",
+    "municipality": "MANTOLOKING BORO", 
+    "county": "Ocean County"
+  },
+  {
+    "code": "1521",
+    "municipality": "OCEAN TWP", 
+    "county": "Ocean County"
+  },
+  {
+    "code": "1522",
+    "municipality": "OCEAN GATE BORO", 
+    "county": "Ocean County"
+  },
+  {
+    "code": "1523",
+    "municipality": "PINE BEACH BORO", 
+    "county": "Ocean County"
+  },
+  {
+    "code": "1524",
+    "municipality": "PLUMSTED TWP", 
+    "county": "Ocean County"
+  },
+  {
+    "code": "1525",
+    "municipality": "POINT PLEASANT BORO", 
+    "county": "Ocean County"
+  },
+  {
+    "code": "1526",
+    "municipality": "PT PLEASANT BEACH BORO", 
+    "county": "Ocean County"
+  },
+  {
+    "code": "1527",
+    "municipality": "SEASIDE HEIGHTS BORO", 
+    "county": "Ocean County"
+  },
+  {
+    "code": "1528",
+    "municipality": "SEASIDE PARK BORO", 
+    "county": "Ocean County"
+  },
+  {
+    "code": "1529",
+    "municipality": "SHIP BOTTOM BORO", 
+    "county": "Ocean County"
+  },
+  {
+    "code": "1530",
+    "municipality": "SOUTH TOMS RIVER BORO", 
+    "county": "Ocean County"
+  },
+  {
+    "code": "1531",
+    "municipality": "STAFFORD TWP", 
+    "county": "Ocean County"
+  },
+  {
+    "code": "1532",
+    "municipality": "SURF CITY BORO", 
+    "county": "Ocean County"
+  },
+  {
+    "code": "1533",
+    "municipality": "TUCKERTON BORO", 
+    "county": "Ocean County"
+  },
+  {
+    "code": "1601",
+    "municipality": "BLOOMINGDALE BORO",
+    "county": "Passaic County"
+  },
+  {
+    "code": "1602",
+    "municipality": "CLIFTON CITY",
+    "county": "Passaic County"
+  },
+  {
+    "code": "1603",
+    "municipality": "HALEDON BORO",
+    "county": "Passaic County"
+  },
+  {
+    "code": "1604",
+    "municipality": "HAWTHORNE BORO",
+    "county": "Passaic County"
+  },
+  {
+    "code": "1605",
+    "municipality": "LITTLE FALLS TWP",
+    "county": "Passaic County"
+  },
+  {
+    "code": "1606",
+    "municipality": "NORTH HALEDON BORO",
+    "county": "Passaic County"
+  },
+  {
+    "code": "1607",
+    "municipality": "PASSAIC CITY",
+    "county": "Passaic County"
+  },
+  {
+    "code": "1608",
+    "municipality": "PATERSON CITY",
+    "county": "Passaic County"
+  },
+  {
+    "code": "1609",
+    "municipality": "POMPTON LAKES BORO",
+    "county": "Passaic County"
+  },
+  {
+    "code": "1610",
+    "municipality": "PROSPECT PARK BORO",
+    "county": "Passaic County"
+  },
+  {
+    "code": "1611",
+    "municipality": "RINGWOOD BORO",
+    "county": "Passaic County"
+  },
+  {
+    "code": "1612",
+    "municipality": "TOTOWA BORO",
+    "county": "Passaic County"
+  },
+  {
+    "code": "1613",
+    "municipality": "WANAQUE BORO",
+    "county": "Passaic County"
+  },
+  {
+    "code": "1614",
+    "municipality": "WAYNE TWP",
+    "county": "Passaic County"
+  },
+  {
+    "code": "1615",
+    "municipality": "WEST MILFORD TWP",
+    "county": "Passaic County"
+  },
+  {
+    "code": "1616",
+    "municipality": "WOODLAND PARK BORO",
+    "county": "Passaic County"
+  },
+  {
+    "code": "1701",
+    "municipality": "ALLOWAY TOWNSHIP",
+    "county": "Salem County"
+  },
+  {
+    "code": "1702",
+    "municipality": "CARNEYS POINT TOWNSHIP",
+    "county": "Salem County"
+  },
+  {
+    "code": "1703",
+    "municipality": "ELMER BORO",
+    "county": "Salem County"
+  },
+  {
+    "code": "1704",
+    "municipality": "ELSINBORO TWP",
+    "county": "Salem County"
+  },
+  {
+    "code": "1705",
+    "municipality": "LOWER ALLOWAY CREEK TWP",
+    "county": "Salem County"
+  },
+  {
+    "code": "1706",
+    "municipality": "MANNINGTON TWP",
+    "county": "Salem County"
+  },
+  {
+    "code": "1707",
+    "municipality": "OLDMANS TWP",
+    "county": "Salem County"
+  },
+  {
+    "code": "1708",
+    "municipality": "PENNS GROVE BORO",
+    "county": "Salem County"
+  },
+  {
+    "code": "1709",
+    "municipality": "PENNSVILLE TWP",
+    "county": "Salem County"
+  },
+  {
+    "code": "1710",
+    "municipality": "PILESGROVE TWP",
+    "county": "Salem County"
+  },
+  {
+    "code": "1711",
+    "municipality": "PITTSGROVE TWP",
+    "county": "Salem County"
+  },
+  {
+    "code": "1712",
+    "municipality": "QUINTON TWP",
+    "county": "Salem County"
+  },
+  {
+    "code": "1713",
+    "municipality": "SALEM CITY",
+    "county": "Salem County"
+  },
+  {
+    "code": "1714",
+    "municipality": "UPPER PITTSGROVE TWP",
+    "county": "Salem County"
+  },
+  {
+    "code": "1715",
+    "municipality": "WOODSTOWN BORO",
+    "county": "Salem County"
+  },
+  {
+    "code": "1801",
+    "municipality": "BEDMINSTER TWP",
+    "county": "Somerset County"
+  },
+  {
+    "code": "1802",
+    "municipality": "BERNARDS TWP",
+    "county": "Somerset County"
+  },
+  {
+    "code": "1803",
+    "municipality": "BERNARDSVILLE BORO",
+    "county": "Somerset County"
+  },
+  {
+    "code": "1804",
+    "municipality": "BOUND BROOK BORO",
+    "county": "Somerset County"
+  },
+  {
+    "code": "1805",
+    "municipality": "BRANCHBURG TWP",
+    "county": "Somerset County"
+  },
+  {
+    "code": "1806",
+    "municipality": "BRIDGEWATER TWP",
+    "county": "Somerset County"
+  },
+  {
+    "code": "1807",
+    "municipality": "FAR HILLS BORO",
+    "county": "Somerset County"
+  },
+  {
+    "code": "1808",
+    "municipality": "FRANKLIN TWP",
+    "county": "Somerset County"
+  },
+  {
+    "code": "1809",
+    "municipality": "GREEN BROOK TWP",
+    "county": "Somerset County"
+  },
+  {
+    "code": "1810",
+    "municipality": "HILLSBOROUGH TWP",
+    "county": "Somerset County"
+  },
+  {
+    "code": "1811",
+    "municipality": "MANVILLE BORO",
+    "county": "Somerset County"
+  },
+  {
+    "code": "1812",
+    "municipality": "MILLSTONE BORO",
+    "county": "Somerset County"
+  },
+  {
+    "code": "1813",
+    "municipality": "MONTGOMERY TWP",
+    "county": "Somerset County"
+  },
+  {
+    "code": "1814",
+    "municipality": "NORTH PLAINFIELD BORO",
+    "county": "Somerset County"
+  },
+  {
+    "code": "1815",
+    "municipality": "PEAPACK GLADSTONE BORO",
+    "county": "Somerset County"
+  },
+  {
+    "code": "1816",
+    "municipality": "RARITAN BORO",
+    "county": "Somerset County"
+  },
+  {
+    "code": "1817",
+    "municipality": "ROCKY HILL BORO",
+    "county": "Somerset County"
+  },
+  {
+    "code": "1818",
+    "municipality": "SOMERVILLE BORO",
+    "county": "Somerset County"
+  },
+  {
+    "code": "1819",
+    "municipality": "SO BOUND BROOK BORO",
+    "county": "Somerset County"
+  },
+  {
+    "code": "1820",
+    "municipality": "WARREN TWP",
+    "county": "Somerset County"
+  },
+  {
+    "code": "1821",
+    "municipality": "WATCHUNG BORO",
+    "county": "Somerset County"
+  },
+  {
+    "code": "1901",
+    "municipality": "ANDOVER BORO",
+    "county": "Sussex County"
+  },
+  {
+    "code": "1902",
+    "municipality": "ANDOVER TWP",
+    "county": "Sussex County"
+  },
+  {
+    "code": "1903",
+    "municipality": "BRANCHVILLE BORO",
+    "county": "Sussex County"
+  },
+  {
+    "code": "1904",
+    "municipality": "BYRAM TWP",
+    "county": "Sussex County"
+  },
+  {
+    "code": "1905",
+    "municipality": "FRANKFORD TWP",
+    "county": "Sussex County"
+  },
+  {
+    "code": "1906",
+    "municipality": "FRANKLIN BORO",
+    "county": "Sussex County"
+  },
+  {
+    "code": "1907",
+    "municipality": "FREDON TWP",
+    "county": "Sussex County"
+  },
+  {
+    "code": "1908",
+    "municipality": "GREEN TWP",
+    "county": "Sussex County"
+  },
+  {
+    "code": "1909",
+    "municipality": "HAMBURG BORO",
+    "county": "Sussex County"
+  },
+  {
+    "code": "1910",
+    "municipality": "HAMPTON TWP",
+    "county": "Sussex County"
+  },
+  {
+    "code": "1911",
+    "municipality": "HARDYSTON TWP",
+    "county": "Sussex County"
+  },
+  {
+    "code": "1912",
+    "municipality": "HOPATCONG BORO",
+    "county": "Sussex County"
+  },
+  {
+    "code": "1913",
+    "municipality": "LAFAYETTE TWP",
+    "county": "Sussex County"
+  },
+  {
+    "code": "1914",
+    "municipality": "MONTAGUE TWP",
+    "county": "Sussex County"
+  },
+  {
+    "code": "1915",
+    "municipality": "NEWTON TOWN",
+    "county": "Sussex County"
+  },
+  {
+    "code": "1916",
+    "municipality": "OGDENSBURG BORO",
+    "county": "Sussex County"
+  },
+  {
+    "code": "1917",
+    "municipality": "SANDYSTON TWP",
+    "county": "Sussex County"
+  },
+  {
+    "code": "1918",
+    "municipality": "SPARTA TWP",
+    "county": "Sussex County"
+  },
+  {
+    "code": "1919",
+    "municipality": "STANHOPE BORO",
+    "county": "Sussex County"
+  },
+  {
+    "code": "1920",
+    "municipality": "STILLWATER TWP",
+    "county": "Sussex County"
+  },
+  {
+    "code": "1921",
+    "municipality": "SUSSEX BORO",
+    "county": "Sussex County"
+  },
+  {
+    "code": "1922",
+    "municipality": "VERNON TWP",
+    "county": "Sussex County"
+  },
+  {
+    "code": "1923",
+    "municipality": "WALPACK TWP",
+    "county": "Sussex County"
+  },
+  {
+    "code": "1924",
+    "municipality": "WANTAGE TWP",
+    "county": "Sussex County"
+  },
+  {
+    "code": "2001",
+    "municipality": "BERKELEY HEIGHTS TWP",
+    "county": "Union County"
+  },
+  {
+    "code": "2002",
+    "municipality": "CLARK TWP",
+    "county": "Union County"
+  },
+  {
+    "code": "2003",
+    "municipality": "CRANFORD TWP",
+    "county": "Union County"
+  },
+  {
+    "code": "2004",
+    "municipality": "ELIZABETH CITY",
+    "county": "Union County"
+  },
+  {
+    "code": "2005",
+    "municipality": "FANWOOD BORO",
+    "county": "Union County"
+  },
+  {
+    "code": "2006",
+    "municipality": "GARWOOD BORO",
+    "county": "Union County"
+  },
+  {
+    "code": "2007",
+    "municipality": "HILLSIDE TWP",
+    "county": "Union County"
+  },
+  {
+    "code": "2008",
+    "municipality": "KENILWORTH BORO",
+    "county": "Union County"
+  },
+  {
+    "code": "2009",
+    "municipality": "LINDEN CITY",
+    "county": "Union County"
+  },
+  {
+    "code": "2010",
+    "municipality": "MOUNTAINSIDE BORO",
+    "county": "Union County"
+  },
+  {
+    "code": "2011",
+    "municipality": "NEW PROVIDENCE BORO",
+    "county": "Union County"
+  },
+  {
+    "code": "2012",
+    "municipality": "PLAINFIELD CITY",
+    "county": "Union County"
+  },
+  {
+    "code": "2013",
+    "municipality": "RAHWAY CITY",
+    "county": "Union County"
+  },
+  {
+    "code": "2014",
+    "municipality": "ROSELLE BORO",
+    "county": "Union County"
+  },
+  {
+    "code": "2015",
+    "municipality": "ROSELLE PARK BORO",
+    "county": "Union County"
+  },
+  {
+    "code": "2016",
+    "municipality": "SCOTCH PLAINS TWP",
+    "county": "Union County"
+  },
+  {
+    "code": "2017",
+    "municipality": "SPRINGFIELD TWP",
+    "county": "Union County"
+  },
+  {
+    "code": "2018",
+    "municipality": "SUMMIT CITY",
+    "county": "Union County"
+  },
+  {
+    "code": "2019",
+    "municipality": "UNION TWP",
+    "county": "Union County"
+  },
+  {
+    "code": "2020",
+    "municipality": "WESTFIELD TOWN",
+    "county": "Union County"
+  },
+  {
+    "code": "2021",
+    "municipality": "WINFIELD TWP",
+    "county": "Union County"
+  },
+  {
+    "code": "2101",
+    "municipality": "ALLAMUCHY TWP",
+    "county": "Warren County"
+  },
+  {
+    "code": "2102",
+    "municipality": "ALPHA BORO",
+    "county": "Warren County"
+  },
+  {
+    "code": "2103",
+    "municipality": "BELVIDERE TOWN",
+    "county": "Warren County"
+  },
+  {
+    "code": "2104",
+    "municipality": "BLAIRSTOWN TWP",
+    "county": "Warren County"
+  },
+  {
+    "code": "2105",
+    "municipality": "FRANKLIN TWP",
+    "county": "Warren County"
+  },
+  {
+    "code": "2106",
+    "municipality": "FRELINGHUYSEN TWP",
+    "county": "Warren County"
+  },
+  {
+    "code": "2107",
+    "municipality": "GREENWICH TWP",
+    "county": "Warren County"
+  },
+  {
+    "code": "2108",
+    "municipality": "HACKETTSTOWN TOWN",
+    "county": "Warren County"
+  },
+  {
+    "code": "2109",
+    "municipality": "HARDWICK TWP",
+    "county": "Warren County"
+  },
+  {
+    "code": "2110",
+    "municipality": "HARMONY TWP",
+    "county": "Warren County"
+  },
+  {
+    "code": "2111",
+    "municipality": "HOPE TWP",
+    "county": "Warren County"
+  },
+  {
+    "code": "2112",
+    "municipality": "INDEPENDENCE TWP",
+    "county": "Warren County"
+  },
+  {
+    "code": "2113",
+    "municipality": "KNOWLTON TWP",
+    "county": "Warren County"
+  },
+  {
+    "code": "2114",
+    "municipality": "LIBERTY TWP",
+    "county": "Warren County"
+  },
+  {
+    "code": "2115",
+    "municipality": "LOPATCONG TWP",
+    "county": "Warren County"
+  },
+  {
+    "code": "2116",
+    "municipality": "MANSFIELD TWP",
+    "county": "Warren County"
+  },
+  {
+    "code": "2117",
+    "municipality": "OXFORD TWP",
+    "county": "Warren County"
+  },
+  {
+    "code": "2119",
+    "municipality": "PHILLIPSBURG TOWN",
+    "county": "Warren County"
+  },
+  {
+    "code": "2120",
+    "municipality": "POHATCONG TWP",
+    "county": "Warren County"
+  },
+  {
+    "code": "2121",
+    "municipality": "WASHINGTON BORO",
+    "county": "Warren County"
+  },
+  {
+    "code": "2122",
+    "municipality": "WASHINGTON TWP",
+    "county": "Warren County"
+  },
+  {
+    "code": "2123",
+    "municipality": "WHITE TWP",
+    "county": "Warren County"
+  }
+]

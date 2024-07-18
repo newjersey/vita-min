@@ -1814,6 +1814,8 @@ ActiveRecord::Schema[7.1].define(version: 2024_07_25_001953) do
     t.string "primary_suffix"
     t.text "raw_direct_file_data"
     t.string "referrer"
+    t.string "residence_county"
+    t.string "residence_county_code"
     t.string "routing_number"
     t.integer "sign_in_count", default: 0, null: false
     t.string "source"

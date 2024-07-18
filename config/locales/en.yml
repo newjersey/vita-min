@@ -2412,6 +2412,14 @@ en:
           nyc_residency_none_html: On the previous page, you told us you <strong>did not</strong> live in New York City in %{filing_year}.
           nyc_residency_none_warning: The county you selected is in New York City. Please select a county outside of New York City or click on the "Go Back" button to change your New York City residency answer.
           title: Select the county where you lived on December 31, %{filing_year}
+      nj_county:
+        edit:
+          county: County
+          title: Select the county where you lived on December 31, %{filing_year}
+      nj_county_code:
+        edit:
+          municipality: Municipality
+          title: Select the municipality where you lived on December 31, %{filing_year}
       ny_eligibility_college_savings_withdrawal:
         edit:
           non_qualifying_expenses:
@@ -2637,6 +2645,7 @@ en:
           direct_deposit: Direct deposit (fastest)
           mail: Mail my payment (slower)
           ny_title_html: Good news, you're getting a New York State tax refund of <strong>$%{refund_amount}.</strong> How would you like to receive your refund?
+          nj_title_html: Good news, you're getting a New Jersey tax refund of <strong>$%{refund_amount}.</strong> How would you like to receive your refund?
           page_title: Good news, you're getting a tax refund. How would you like to receive your refund?
       taxes_owed:
         edit:

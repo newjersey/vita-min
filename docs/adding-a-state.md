@@ -2,6 +2,7 @@
 
 ## Add a new intake model and corresponding db table
 - Generate a migration called `CreateStateFile[state abbreviation]Intakes`
+  - `rails g migration` or if using docker setup, `docker exec -it rails bin/rails g migration` and `sudo chown [current user] [migration file]` if using docker as root
 - Generate a model from the migration
 - When you run the migration, it will annotate the model and add spec files
 
@@ -31,7 +32,7 @@
 ## Add a question
 - Make sure the value is included in the database and the model
 - Create a controller for the question under `app/controllers/state_file/questions` (the controller name will determine the name of the route)
-- Add that controller to a section (or create a section) in the navigation class you created
+  - Add that controller to a section (or create a section) in the navigation class you created
 - Create a form for the question under `app/forms/state_file`
 - Create a view for the question under `app/views/state_file/questions`
 - Add text for the question under `config/locales`
