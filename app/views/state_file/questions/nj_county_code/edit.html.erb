@@ -8,7 +8,12 @@ content_for :page_title, title
 
   <%= form_with model: @form, url: { action: :update }, local: true, method: "put", builder: VitaMinFormBuilder do |f| %>
     <div class="blue-group">
-      <%= f.vita_min_state_file_select(:residence_county_code , t(".municipality"), @municipalities, label_class: 'form-label--bold', prompt: t('general.select_prompt') ) %>
+      <%= f.vita_min_state_file_select(
+        :residence_county_code,
+        t(".municipality"),
+        @municipalities,
+        label_class: 'form-label--bold',
+        prompt: t('general.select_prompt') ) %>
     </div>
 
     <% if params[:return_to_review].present? %>

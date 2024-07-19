@@ -6,6 +6,14 @@ module SubmissionBuilder
           class Nj1040 < SubmissionBuilder::Document
             include SubmissionBuilder::FormattingMethods
 
+            FILING_STATUS_ELEMENT = {
+              :married_filing_jointly => 'MarriedCuPartFilingJoint',
+              :head_of_household => 'HeadOfHousehold',
+              :married_filing_separately => 'MarriedCuPartFilingSeparate',
+              :single => "Single",
+              :qualifying_widow => "QualWidOrWider"
+            }.freeze
+
             def document
               qualifying_dependents = @submission.qualifying_dependents
               
@@ -25,11 +33,14 @@ module SubmissionBuilder
                         end
                       end
                     when :qualifying_widow
-                      # TODO: where do we get the last year or two years prior info?
+                      yod = Date.parse(@submission.data_source.direct_file_data.spouse_date_of_death)&.strftime("%Y")
                       xml.QualWidOrWider do
                         xml.QualWidOrWiderSurvCuPartner 'X'
-                        xml.LastYear
-                        xml.TwoYearPrior
+                        if yod == Time.now.year - 1
+                          xml.LastYear 'X'
+                        elsif yod == Time.now.year - 2
+                          xml.TwoYearPrior 'X'
+                        end
                       end
                     when :single, :married_filing_jointly, :head_of_household
                       xml.send(FILING_STATUS_ELEMENT[status], 'X')
@@ -78,14 +89,16 @@ module SubmissionBuilder
                     end
                   end
 
+                  puts intake.residence_county
+                  puts intake.residence_county_code
                   xml.CountyCode intake.residence_county_code
 
-                  xml.NactpCode '12345'
+                  # xml.NactpCode '12345' #???
                 end
                 
                 xml.Body do
-                  xml.WagesSalariesTips 123
-                  # xml.TaxableInterestIncome
+                  # xml.WagesSalariesTips
+                  xml.TaxableInterestIncome intake.fed_taxable_income
                   # xml.TaxexemptInterestIncome
                   # xml.Dividends
                   # xml.NetProfitsFromBusiness
@@ -145,4 +158,3 @@ module SubmissionBuilder
     end
   end
 end
- 

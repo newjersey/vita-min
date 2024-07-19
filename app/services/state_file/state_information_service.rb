@@ -92,7 +92,7 @@ module StateFile
         navigation_class: Navigation::StateFileNjQuestionNavigation,
         submission_builder_class: SubmissionBuilder::Ty2022::States::Nj::IndividualReturn,
         state_name: "New Jersey",
-        return_type: "NJ1040",
+        return_type: "Resident",
         # mail_voucher_address: "New Jersey Personal Income Tax<br/>" \
         #                       "Processing Center<br/>" \
         #                       "Trenton, NJ".html_safe,
