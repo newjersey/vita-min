@@ -143,6 +143,15 @@ describe StateFileW2 do
       end
     end
 
+    context "with a New Jersey Intake" do
+      let(:intake) { create :state_file_nj_intake }
+
+      it "Grabs the state code from the intake" do
+        xml = Nokogiri::XML(w2.state_tax_group_xml_node)
+        expect(xml.at("StateAbbreviationCd").text).to eq "NJ"
+      end
+    end
+
     it "does not emit a StateAbbreviationCd if there is no EmployerStateIdNum" do
       w2.employer_state_id_num = ""
       xml = Nokogiri::XML(w2.state_tax_group_xml_node)

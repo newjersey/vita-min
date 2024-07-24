@@ -85,14 +85,7 @@ FactoryBot.define do
 
     eligibility_lived_in_state { "yes" }
     eligibility_out_of_state_income { "no" }
-    eligibility_withdrew_529 { "no" }
     raw_direct_file_data { File.read(Rails.root.join('app', 'controllers', 'state_file', 'questions', 'df_return_sample.xml')) }
-    primary_first_name { "Meryl" }
-    primary_last_name { "Streep" }
-    primary_birth_date{ Date.parse("June 22, 1949") }
-    permanent_street { direct_file_data.mailing_street }
-    permanent_city { direct_file_data.mailing_city }
-    permanent_zip { direct_file_data.mailing_zip }
     state_file_analytics { StateFileAnalytics.create }
 
     after(:build) do |intake, evaluator|
@@ -105,6 +98,7 @@ FactoryBot.define do
       }[evaluator.filing_status.to_sym] || evaluator.filing_status
       intake.direct_file_data.filing_status = numeric_status
       intake.raw_direct_file_data = intake.direct_file_data.to_s
+      intake.direct_file_data.fed_w2_state = "NJ"
     end
 
     trait :mfj_with_complete_spouse do
@@ -146,14 +140,14 @@ FactoryBot.define do
     end
 
     factory :state_file_nj_owed_intake do
-      after(:build) do |intake, evaluator|
+      after(:build) do |intake, _evaluator|
         intake.direct_file_data.fed_unemployment = 45000
         intake.raw_direct_file_data = intake.direct_file_data.to_s
       end
     end
 
     factory :state_file_nj_refund_intake do
-      after(:build) do |intake, evaluator|
+      after(:build) do |intake, _evaluator|
         intake.direct_file_data.fed_wages = 2_000
         intake.direct_file_data.fed_taxable_income = 2_000
         intake.direct_file_data.fed_taxable_ssb = 0

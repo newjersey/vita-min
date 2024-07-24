@@ -91,17 +91,17 @@ class StateFileNjIntake < StateFileBaseIntake
   def disqualifying_eligibility_rules
     {
       eligibility_lived_in_state: "no",
+      eligibility_out_of_state_income: "yes",
     }
   end
 
   def tax_calculator(include_source: false)
-      Efile::Nj::Nj1040.new(
-        year: MultiTenantService.statefile.current_tax_year,
-        intake: self,
-        include_source: include_source
-      )
-    end
-
+    Efile::Nj::Nj1040.new(
+      year: MultiTenantService.statefile.current_tax_year,
+      intake: self,
+      include_source: include_source
+    )
+  end
 
   def ask_months_in_home?
     false

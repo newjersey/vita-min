@@ -12,11 +12,6 @@
   - Calculator class
   - Submission builder class
 
-## Add your state to the routes file
-- In `config/routes.rb`, add a `devise_for` line
-- In the same file, add our state abbreviation to the `scope ':us_state'` lines where other states are listed
-- In the same file, add `scoped_navigation_routes` for the question navigation
-
 ## Add state-specific styles
 - Add your state logo under `app/assets/images/partner-logos`, naming it `[state abbreviation]gov-logo.svg`
 - Add your state color under `app/assets/stylesheets/_variables.scss`, naming it `$color-[state abbreviation]-[color name]`
@@ -60,6 +55,32 @@ Add a pdf filler: `app/lib/pdf_filler/[form name]_pdf.rb`
 ## Edit content
 - Add translated text for your state to `config/locales/[lang].yml` files as needed to get the app running
 - Edit content in `app/views/state_file/questions/eligible/edit.html.erb`
+
+## Add tests
+
+### For each state
+
+- Add a factory in `spec/factories/state_file_[state]_intakes.rb`
+- Add the state to the flow explorer in `complete_intake_spec.rb` and test against a screenshot
+- Add tests in `spec/lib/submission_builder/[state]` for submission return XML
+- Add tests in `spec/models/state_file_analytics_spec.rb` to make sure the correct analytics keys are included
+- Add state code tests and others as needed to `spec/models/state_file_w2_spec.rb`
+- Add state-specific steps to get through the eligibility screener in `spec/support/helpers/state_file_intake_helper.rb`
+- Add state to `spec/tasks` post and pre deadline reminder service tests
+
+Add to the controller tests in `spec/controllers/state_file`:
+- `landing_page_controller_spec.rb` to ensure an intake can be created
+- `return_status_controller_spec.rb` for whether the most recent submission is shown on sign in
+- `submission_pdfs_controller_spec.rb` for PDF creation
+- `w2_controller_spec.rb` for a bad w2
+
+### For each tax document
+- Add tests in `spec/lib/pdf_filler`
+- Add tests in `spec/lib/efile/[state]/form`
+
+### For each question
+- Add controller tests in `spec/controllers/state_file/questions`
+- Add form tests in `spec/forms`
 
 ## Add fake return data
 - Create a folder for your state under `spec/fixtures/state_file/fed_return_xmls/[year]`
