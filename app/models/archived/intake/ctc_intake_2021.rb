@@ -250,10 +250,10 @@ class Archived::Intake::CtcIntake2021 < Archived::Intake2021
     'Intake::CtcIntake'
   end
 
-  attribute :eip1_amount_received, :money
-  attribute :eip2_amount_received, :money
-  attribute :primary_prior_year_agi_amount, :money
-  attribute :spouse_prior_year_agi_amount, :money
+  # attribute :eip1_amount_received, :money
+  # attribute :eip2_amount_received, :money
+  # attribute :primary_prior_year_agi_amount, :money
+  # attribute :spouse_prior_year_agi_amount, :money
 
   enum had_dependents: { unfilled: 0, yes: 1, no: 2 }, _prefix: :had_dependents
   enum eip1_entry_method: { unfilled: 0, calculated_amount: 1, did_not_receive: 2, manual_entry: 3 }, _prefix: :eip1_entry_method
