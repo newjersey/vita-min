@@ -3,9 +3,6 @@ module Navigation
     include ControllerNavigation
 
     SECTIONS = [
-      Navigation::NavigationSection.new(nil, [
-                                          Navigation::NavigationStep.new(StateFile::LandingPageController, false)
-                                        ], false),
       Navigation::NavigationSection.new("state_file.navigation.section_1", [
                                           Navigation::NavigationStep.new(StateFile::Questions::NjEligibilityResidenceController),
                                           Navigation::NavigationStep.new(StateFile::Questions::EligibilityOffboardingController, false),
