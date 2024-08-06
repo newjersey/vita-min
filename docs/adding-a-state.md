@@ -77,7 +77,7 @@ Add to the controller tests in `spec/controllers/state_file`:
 
 ### For each tax document
 - Add tests in `spec/lib/pdf_filler`
-- Add tests in `spec/lib/efile/[state]/form`
+- Add calculator tests in `spec/lib/efile/[state]/[form_name].rb`
 
 ### For each question
 - Add controller tests in `spec/controllers/state_file/questions`
