@@ -31,6 +31,8 @@ module Navigation
                                           Navigation::NavigationStep.new(StateFile::Questions::FederalInfoController),
                                           Navigation::NavigationStep.new(StateFile::Questions::DataTransferOffboardingController, false),
                                           Navigation::NavigationStep.new(StateFile::Questions::NameDobController),
+                                          Navigation::NavigationStep.new(StateFile::Questions::NjCountyController),
+                                          Navigation::NavigationStep.new(StateFile::Questions::NjCountyCodeController),
                                           Navigation::NavigationStep.new(StateFile::Questions::W2Controller),
                                           Navigation::NavigationStep.new(StateFile::Questions::UnemploymentController),
                                           Navigation::NavigationStep.new(StateFile::Questions::TaxesOwedController),

@@ -2,7 +2,7 @@ require 'json'
 
 module StateFile
   module Questions
-    class NjCountyController < AuthenticatedQuestionsController
+    class NjCountyController < QuestionsController
       include ReturnToReviewConcern
 
       def edit
