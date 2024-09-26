@@ -1,6 +1,6 @@
 module Efile
   module Nj
-    class Nj1040 < ::Efile::TaxCalculator
+    class Nj1040Calculator < ::Efile::TaxCalculator
       attr_reader :lines
 
       RENT_CONVERSION = 0.18
@@ -43,6 +43,20 @@ module Efile
         number_of_line_7_exemptions = number_of_true_checkboxes([line_7_self_checkbox, line_7_spouse_checkbox])
         number_of_line_7_exemptions * 1_000
       end
+      
+      def calculate_line_29
+        # TODO: replace dummy value
+        0
+      end
+
+      def calculate_line_38
+        # TODO: replace dummy value
+        0
+      end
+
+      def calculate_line_39
+        calculate_line_29 - calculate_line_38
+      end
 
       def calculate_line_40a
         is_mfs = @intake.filing_status == :married_filing_separately
@@ -59,6 +73,15 @@ module Efile
         is_mfs ? (property_tax_paid / 2.0).round : property_tax_paid.round
       end
 
+      def calculate_line_41
+        # TODO: replace dummy value
+        0
+      end
+
+      def calculate_line_42
+        calculate_line_39 - calculate_line_41
+      end
+
       def total_exemption_amount
         0
       end
@@ -70,6 +93,32 @@ module Efile
       def analytics_attrs
         {
         }
+      end
+
+      def number_of_dependents_age_5_younger
+        # TODO
+        # qualified dependent children and other dependents from lines 10 and 11
+        # who are age 5 or younger 12/31/tax year
+        1
+      end
+
+      def calculate_line_65
+        return nil if @intake.filing_status == :married_filing_separately
+        nj_taxable_income = calculate_line_42
+        eligible_dependents_count = number_of_dependents_age_5_younger
+        case
+        when nj_taxable_income <= 30000
+          return eligible_dependents_count * 1000
+        when nj_taxable_income <= 40000
+          return eligible_dependents_count * 800
+        when nj_taxable_income <= 50000
+          return eligible_dependents_count * 600
+        when nj_taxable_income <= 60000
+          return eligible_dependents_count * 400
+        when nj_taxable_income <= 80000
+          return eligible_dependents_count * 200
+        end
+        nil
       end
 
       private
