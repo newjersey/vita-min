@@ -96,10 +96,8 @@ module Efile
       end
 
       def number_of_dependents_age_5_younger
-        # TODO
-        # qualified dependent children and other dependents from lines 10 and 11
-        # who are age 5 or younger 12/31/tax year
-        1
+        # TODO: revise once we have lines 10 and 11
+        intake.dependents.count { |dependent| age_on_last_day_of_tax_year(dependent.birth_date) <= 5 }
       end
 
       def calculate_line_65
@@ -139,6 +137,11 @@ module Efile
       def is_over_65(birth_date)
         over_65_birth_year = MultiTenantService.new(:statefile).current_tax_year - 65
         birth_date <= Date.new(over_65_birth_year, 12, 31)
+      end
+
+      def age_on_last_day_of_tax_year(dob)
+        last_day_of_tax_year = Date.new(MultiTenantService.new(:statefile).current_tax_year, 12, 31)
+        last_day_of_tax_year.year - dob.year - (last_day_of_tax_year.month > dob.month || (last_day_of_tax_year.month == dob.month && last_day_of_tax_year.day >= dob.day) ? 0 : 1)
       end
 
       def number_of_true_checkboxes(checkbox_array_for_line)
