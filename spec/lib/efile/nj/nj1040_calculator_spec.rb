@@ -4,7 +4,7 @@ def over_65_birth_year
   MultiTenantService.statefile.current_tax_year - 65
 end
 
-describe Efile::Nj::Nj1040 do
+describe Efile::Nj::Nj1040Calculator do
   let(:intake) { create(:state_file_nj_intake) }
   let(:instance) do
     described_class.new(
@@ -198,5 +198,40 @@ describe Efile::Nj::Nj1040 do
         expect(instance.lines[:NJ1040_LINE_40A].value).to eq(nil)
       end
     end
+  end
+
+  describe 'line 65 - NJ child tax credit' do
+    context 'when taxpayer is married filing separately' do
+      let(:intake) { create(:state_file_nj_intake, :married_filing_separately) }
+      it 'returns 0' do
+        expect(instance.lines[:NJ1040_LINE_65].value).to eq(0)
+      end
+    end
+
+    # when taxable income is above 80k does not return any values
+    context 'when taxable income is over 80k' do
+      let(:intake) { create(:state_file_nj_intake, :df_data_one_dep) }
+
+    end
+
+    # when dependents are too old does not return any values
+    context 'when dependents are over 5 years old' do
+      let(:intake) { create(:state_file_nj_intake, :df_data_one_dep) }
+
+      birth_date_six_years = Date.new(MultiTenantService.new(:statefile).current_tax_year - 6, 12, 31)
+      binding.pry
+      intake.synchronize_df_dependents_to_database
+      intake.dependents.first.update(dob: date)
+      intake.dependents.reload
+      
+      it 'returns 0' do
+        expect(instance.lines[:NJ1040_LINE_65].value).to eq(0)
+      end
+    end
+
+
+    # sets the dependent count correctly with a mix of dependent ages
+
+    # returns the right values per income and num of dependents
   end
 end

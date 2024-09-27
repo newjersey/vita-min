@@ -17,6 +17,8 @@ module Efile
         set_line(:NJ1040_LINE_7, :calculate_line_7)
         set_line(:NJ1040_LINE_15, :calculate_line_15)
         set_line(:NJ1040_LINE_40A, :calculate_line_40a)
+        set_line(:NJ1040_LINE_65_DEPENDENTS, :number_of_dependents_age_5_younger)
+        set_line(:NJ1040_LINE_65, :calculate_line_65)
         @lines.transform_values(&:value)
       end
 
@@ -97,11 +99,11 @@ module Efile
 
       def number_of_dependents_age_5_younger
         # TODO: revise once we have lines 10 and 11
-        intake.dependents.count { |dependent| age_on_last_day_of_tax_year(dependent.birth_date) <= 5 }
+        @intake.dependents.count { |dependent| age_on_last_day_of_tax_year(dependent.dob) <= 5 }
       end
 
       def calculate_line_65
-        return nil if @intake.filing_status == :married_filing_separately
+        return 0 if @intake.filing_status == :married_filing_separately
         nj_taxable_income = calculate_line_42
         eligible_dependents_count = number_of_dependents_age_5_younger
         case
@@ -116,7 +118,7 @@ module Efile
         when nj_taxable_income <= 80000
           return eligible_dependents_count * 200
         end
-        nil
+        0
       end
 
       private

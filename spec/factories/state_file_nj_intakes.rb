@@ -163,5 +163,16 @@ FactoryBot.define do
       spouse_birth_date { Date.new(1900, 1, 1) }
       spouse_ssn { "123456789" }
     end
+
+    trait :nj_ctc_eligible do
+      raw_direct_file_data { StateFile::XmlReturnSampleService.new.read('nj_zeus_many_deps') }
+      filing_status { "married_filing_jointly" }
+
+      # Set 1 dep to be eligible and the rest to not be
+      # Set taxable income at 29999k
+      # line 28c should be 0
+      # line 29 should be 29999k and line 38 should be 0
+      # line 41 should be 0 and line 39 should be 29999k
+    end
   end
 end
